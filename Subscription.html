@@ -1,0 +1,94 @@
+<style>
+    .subscription {
+    width: 100%;
+    }
+
+    .subscription__title {
+        background-color: rgb(184, 95, 136);
+        color: black;
+        padding: 10px;
+        text-align: center;
+       
+        border-radius: 8px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 2px;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-around;
+         
+    }
+
+    .container__free,
+    .container__standard,
+    .container__premium {
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 5px;
+        flex-basis: 15%;
+             
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .container__free__l1,
+    .container__standard__l1,
+    .container__premium__l1 {
+        border: solid white 1px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 8px;
+
+    }
+</style>
+<div class="subscription">
+    <h1 class="subscription__title">Choose your Subscription Today</h1>
+    <div class="container">
+        <div class="container__free">
+                <h2> 0/- Free</h2>
+            <div class="container__free__l1">
+                <p><img src="tick.png"> Listen to music</p>
+                <p> <img src="tick.png"> Share Link</p>
+                <p><img src="tick.png"> Create a Playlist</p>
+                <p><img src="incorrect.png"> Ad free music</p>
+                <p><img src="incorrect.png"> Download Music</p>
+                <p><img src="incorrect.png"> Upload your Music</p>
+            </div>
+        </div>
+        <div class="container__standard">
+            <h2> 499/- Standard</h2>
+            <div class="container__standard__l1">
+                <p><img src="tick.png"> Listen to music</p>
+                <p><img src="tick.png"> Share Link</p>
+                <p><img src="tick.png"> Create a Playlist</p>
+                <p><img src="tick.png">Ad free music</p>
+                <p><img src="incorrect.png"> Download Music</p>
+                <p><img src="incorrect.png"> Upload your Music</p>
+            </div>
+        </div>
+            <div class="container__premium">
+                <h2>699/-Premium</h2>
+                <div class="container__premium__l1">
+                    <p><img src="tick.png"> Listen to music</p>
+                    <p><img src="tick.png"> Share Link</p>
+                    <p><img src="tick.png"> Create a Playlist</p>
+                    <p><img src="tick.png"> Ad free music</p>
+                    <p><img src="tick.png"> Download Music</p>
+                    <p><img src="tick.png"> Upload your Music</p>
+                </div>
+            </div>
+        </div>
+    </div>
